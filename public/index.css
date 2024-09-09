@@ -182,3 +182,13 @@ footer a:hover {
 .credit input:checked ~ pre {
   display: block;
 }
+
+background: hsla(42, 81%, 52%, 1);
+
+background: linear-gradient(180deg, hsla(42, 81%, 52%, 1) 0%, hsla(18, 94%, 50%, 1) 50%, hsla(17, 95%, 50%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(42, 81%, 52%, 1) 0%, hsla(18, 94%, 50%, 1) 50%, hsla(17, 95%, 50%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(42, 81%, 52%, 1) 0%, hsla(18, 94%, 50%, 1) 50%, hsla(17, 95%, 50%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E8AD21", endColorstr="#F74F07", GradientType=1 );
